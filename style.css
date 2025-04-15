@@ -19,3 +19,10 @@ button{
 main {
     margin: 0 5%;
 }
+img{
+    width: 30%;
+}
+#container2{
+    border: 2px solid black;
+    display: flex;
+}

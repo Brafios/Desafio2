@@ -1,0 +1,14 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    color: rgb(18, 0, 0);
+    background-color: rgb(252, 250, 250);
+    padding: 15px 50px 10px 15px;
+    border-radius: 50px;
+}

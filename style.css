@@ -7,15 +7,34 @@ header
 }
 
 #cabecalho{
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
 
 button{
+    width: 150px;
     color: rgb(18, 0, 0);
-    background-color: rgb(252, 250, 250);
-    padding: 15px 50px 10px 15px;
+    background-color: rgb(255, 253, 253);
     border-radius: 50px;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+#mockup
+{
+    display: flex;
+    margin-left: 975px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#imagemM
+{
+    width: 450px;
+    height: 350px;
 }
 
 #mockup

@@ -21,11 +21,26 @@ main {
     
 }
 #container1{
+    margin: 5px;
+    padding: auto;
     display:flex ;
     justify-items: left;
-    align-content: space-around;
-    height: 50vh;
-    width: 50vw;
-    border: 3px solid black; 
+    /* align-content: space-around; */
+     height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    
+}
+.conteudo{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: left;
+    width: 60%;
+    align-items: center;
+}
+img{
+    width: 50%;
     
 }

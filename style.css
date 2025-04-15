@@ -1,0 +1,42 @@
+#rodape{
+    background-color: #00252e;
+}
+
+#copyright{
+    background-color: #00252e;
+    font-size: xx-small;
+}
+
+.linha1{
+    padding-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.linha2{
+    margin-top: 40px;
+    display: flex;
+}
+
+.linha3{
+    margin-top: 100px;
+}
+
+.bi{
+    margin-left: 20px;
+}
+
+.row{
+    margin-top: 150px;
+}
+
+.texto_icon{
+    margin-left: 15px;
+    width: 200vw;
+    height: 5px;
+}
+
+#logo{
+    width: 250px;
+}

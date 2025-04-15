@@ -8,3 +8,14 @@ display: flex;
 justify-content: ;
 align-items: start;
 }
+img{
+    display: flex;
+    justify-items: right
+    margin: 20px;
+    flex-direction:row;
+    height: 50vh;
+    width: 50vw;
+}
+p{
+    width: 30vw;
+}

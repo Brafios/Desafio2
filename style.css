@@ -100,6 +100,33 @@ main{
     background: white;
 }
 
+/* estilos jair */
+.but{
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.hea{
+   padding: 10%;
+   margin: auto;
+
+}
+
+#textoJ{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 #container3 {
     border: none;
     border-radius: 10px;
@@ -130,6 +157,7 @@ main{
 
 #modal {
     background-color: rgb(252, 250, 250);
+    color: #00252e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,9 +170,8 @@ main{
     margin-bottom: 50px;
     padding: 30px;
     position: absolute;
-    top: 1100px;
     left: 400px;
-    color: #00252e;
+    top: 230%;
 }
 
 #modal h3 {

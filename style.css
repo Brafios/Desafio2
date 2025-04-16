@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 #rodape{
@@ -29,10 +31,9 @@
     margin-left: 20px;
 }
 
-.row{
+#linhafooter{
     margin-top: 150px;
 }
-
 .texto_icon{
     margin-left: 15px;
     width: 200vw;
@@ -64,7 +65,7 @@ header {
     width: 200px;
 }
 
-button {
+#btn-1 {
     width: 150px;
     color: rgb(18, 0, 0);
     background-color: rgb(252, 250, 250);
@@ -78,6 +79,11 @@ button {
     margin-left: 975px;
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 #imagemM {
@@ -94,6 +100,7 @@ main{
     background: white;
 }
 
+<<<<<<< HEAD
 /* estilos jair */
 .but{
     background-color: hotpink;
@@ -117,5 +124,64 @@ main{
 p{
     font-size: 20px;
     margin-bottom: 30px;
+=======
+#container3 {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    padding: 30px 30px 30px 50px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    width: 50%;
+}
+.content h2 {
+    font-weight: 600;
+}
+.content p {
+    color: hsl(208, 11%, 55%);
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#modal {
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+#modal h3 {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+#btn-2 {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
+    border-radius: 30px;
+    color: hsl(193, 100%, 96%);
+    margin: 25px 0;
+    padding: 15px 60px;
+    font-weight: 700;
+>>>>>>> e7cb3d1e072816d3fbebf8f7567d9249295ff314
 
 }

@@ -76,9 +76,9 @@ header {
 
 #mockup {
     display: flex;
-    margin-left: 975px;
+    margin-left: 75px;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 * {
@@ -87,8 +87,8 @@ header {
 }
 
 #imagemM {
-    width: 450px;
-    height: 350px;
+    width: 600px;
+    height: 450px;
 }
 
 #imagem1{
@@ -98,6 +98,10 @@ header {
 
 main{
     background: white;
+}
+
+#testeOne{
+    display: flex;
 }
 
 /* estilos jair */
@@ -117,9 +121,10 @@ main{
 }
 
 .hea{
+   width: 650px;
    padding: 10%;
-   margin: auto;
-
+   display: flex;
+   flex-direction: column;
 }
 
 #textoJ{
@@ -171,7 +176,7 @@ main{
     padding: 30px;
     position: absolute;
     left: 400px;
-    top: 230%;
+    top: 180%;
 }
 
 #modal h3 {
@@ -190,3 +195,5 @@ main{
     font-weight: 700;
 
 }
+
+

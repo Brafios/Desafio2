@@ -141,6 +141,10 @@ main{
     box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
     margin-bottom: 50px;
     padding: 30px;
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+    color: #00252e;
 }
 
 #modal h3 {

@@ -32,12 +32,16 @@ main {
     margin: 0 5%;
 }
 img{
-    width: 50%;
+    width:100%;
 }
+    
 #container2{
     border: 2px solid black;
     display: flex;
-    border-radius: ;
+    border-radius: 10px;
+    border-color: hsl(208, 11%, 55%);
+    margin: auto;
+   
 }
 .conversation{
     display: flex;

@@ -130,6 +130,7 @@ main{
 
 #modal {
     background-color: rgb(252, 250, 250);
+    color: #00252e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,6 +142,9 @@ main{
     box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
     margin-bottom: 50px;
     padding: 30px;
+    position: absolute;
+    left: 400px;
+    top: 1080px;
 }
 
 #modal h3 {

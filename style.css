@@ -93,3 +93,29 @@ button {
 main{
     background: white;
 }
+
+/* estilos jair */
+.but{
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.hea{
+   padding: 10%;
+   margin: auto;
+
+}
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}

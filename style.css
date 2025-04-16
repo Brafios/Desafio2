@@ -73,8 +73,55 @@ header {
     border-radius: 50px;
     text-align: center;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+/* img{
+    width: 200px;
+} */
+main {
+    margin: 0 5%;
+}
+#img2{
+    width:50%;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 20px 50px 20px 50px;
+    
+}
 
-#mockup {
+    
+#container2{
+    border: 2px solid black;
+    display: flex;
+    border-radius: 10px;
+    border-color: hsl(208, 11%, 55%);
+    margin: auto;
+    height: 300px;
+    padding: 50px;
+   
+}
+.conversation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    /* padding: 100px; */
+    /* align-items: center; */
+}
+h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+#mockup
+{
     display: flex;
     margin-left: 75px;
     padding-bottom: 50px;
@@ -91,10 +138,6 @@ header {
     height: 450px;
 }
 
-#imagem1{
-    width: 350px;
-    height: 250px;
-}
 
 main{
     background: white;

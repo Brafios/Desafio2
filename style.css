@@ -29,7 +29,7 @@
     margin-left: 20px;
 }
 
-.row{
+#linhafooter{
     margin-top: 150px;
 }
 
@@ -92,4 +92,15 @@ button {
 
 main{
     background: white;
+}
+#modal{
+    width: 50%;
+    color:  #00252e;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px red;
 }

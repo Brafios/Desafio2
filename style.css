@@ -31,9 +31,13 @@ img{
 main {
     margin: 0 5%;
 }
-img{
-    width:100%;
+#img2{
+    width:50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
 }
+
     
 #container2{
     border: 2px solid black;

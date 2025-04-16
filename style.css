@@ -100,7 +100,6 @@ main{
     background: white;
 }
 
-<<<<<<< HEAD
 /* estilos jair */
 .but{
     background-color: hotpink;
@@ -116,15 +115,18 @@ main{
     border-radius: 20px;
 
 }
+
 .hea{
    padding: 10%;
    margin: auto;
 
 }
-p{
+
+#textoJ{
     font-size: 20px;
     margin-bottom: 30px;
-=======
+}
+
 #container3 {
     border: none;
     border-radius: 10px;
@@ -182,6 +184,5 @@ p{
     margin: 25px 0;
     padding: 15px 60px;
     font-weight: 700;
->>>>>>> e7cb3d1e072816d3fbebf8f7567d9249295ff314
 
 }

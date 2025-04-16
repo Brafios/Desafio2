@@ -1,19 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
 
-header
-{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#rodape{
+    background-color: #00252e;
+}
+
+#copyright{
+    background-color: #00252e;
+    font-size: xx-small;
+}
+
+.linha1{
+    padding-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.linha2{
+    margin-top: 40px;
+    display: flex;
+}
+
+.linha3{
+    margin-top: 100px;
+}
+
+.bi{
+    margin-left: 20px;
+}
+
+#linhafooter{
+    margin-top: 150px;
+}
+.texto_icon{
+    margin-left: 15px;
+    width: 200vw;
+    height: 5px;
+}
+
+#logo{
+    width: 250px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
     background-image: url("./images/bg-hero-desktop.svg");
 }
 
-#cabecalho{
+#cabecalho {
     margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     justify-content: space-between;
 }
 
-button{
+#logo {
+    width: 200px;
+}
+
+#btn-1 {
     width: 150px;
     color: rgb(18, 0, 0);
     background-color: rgb(252, 250, 250);
@@ -72,22 +124,107 @@ p{
     padding-top: 50px;
 }
 
-#imagemM
-{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#imagemM {
     width: 450px;
     height: 350px;
 }
 
-#mockup
-{
+#imagem1{
+    width: 350px;
+    height: 250px;
+}
+
+main{
+    background: white;
+}
+
+<<<<<<< HEAD
+/* estilos jair */
+.but{
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.hea{
+   padding: 10%;
+   margin: auto;
+
+}
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+=======
+#container3 {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
+    margin-top: 20px;
+    height: 300px;
     display: flex;
-    margin-left: 975px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding: 30px 30px 30px 50px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    width: 50%;
+}
+.content h2 {
+    font-weight: 600;
+}
+.content p {
+    color: hsl(208, 11%, 55%);
+    font-size: 13px;
+    margin-top: 10px;
 }
 
-#imagemM
-{
-    width: 450px;
-    height: 350px;
+#modal {
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+#modal h3 {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+#btn-2 {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    box-shadow: 1px 1px 5px 1px hsl(208, 11%, 55%);
+    border-radius: 30px;
+    color: hsl(193, 100%, 96%);
+    margin: 25px 0;
+    padding: 15px 60px;
+    font-weight: 700;
+>>>>>>> e7cb3d1e072816d3fbebf8f7567d9249295ff314
+
 }

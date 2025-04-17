@@ -64,9 +64,11 @@ header {
 
 #logo {
     width: 200px;
+    height: 40px;
 }
 
 #btn-1 {
+#btnfree {
     width: 150px;
     color: rgb(18, 0, 0);
     background-color: rgb(252, 250, 250);

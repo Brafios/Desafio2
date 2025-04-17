@@ -50,6 +50,7 @@ body {
 }
 
 header {
+    background-color: #EDFBFE;
     background-image: url("./images/bg-hero-desktop.svg");
 }
 
@@ -163,11 +164,16 @@ main{
     margin: 20px 2px;
     cursor: pointer;
     border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+}
 
+#fonteH{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
 
 .hea{
-   width: 650px;
+   width: 700px;
    padding: 10%;
    display: flex;
    flex-direction: column;
@@ -176,6 +182,8 @@ main{
 #textoJ{
     font-size: 20px;
     margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    width: 500px;
 }
 
 #container1 {

@@ -82,9 +82,7 @@ img{
     /* margin: 5px; */
     margin: 0 100px;
 }
-main {
-    margin: 0 5%;
-}
+
 #img2{
     width:50%;
     /* margin-top: 10px;
@@ -142,9 +140,11 @@ main {
     }
 
 
-    main {
-        background: white;
-    }
+@media (max-width: 900px) {{main
+    background: white;
+    margin: 0 5%;
+}
+}
 
     #testeOne {
         display: flex;

@@ -91,13 +91,14 @@ main {
     width:50%;
     /* margin-top: 10px;
     margin-bottom: 10px; */
-    margin: 20px 50px 20px 50px;
+    margin: 0 100px;
     
 }
 
     
 #container2{
-    border: 2px solid black;
+    border: none;
+    box-shadow:  1px 1px 5px 1px hsl(0, 0%, 80%);
     display: flex;
     border-radius: 10px;
     border-color: hsl(208, 11%, 55%);
@@ -122,7 +123,8 @@ h3{
 }
 p{
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-size: 18px;
+    color:  #808d99;
 }
 #mockup
 {
@@ -221,7 +223,7 @@ main{
 }
 .content p {
     color: hsl(208, 11%, 55%);
-    font-size: 13px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
